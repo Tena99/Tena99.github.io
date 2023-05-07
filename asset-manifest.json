@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e37d5cde.css",
-    "main.js": "/static/js/main.5a71994f.js",
+    "main.css": "/static/css/main.5315ea27.css",
+    "main.js": "/static/js/main.089759f9.js",
     "static/media/Roboto-Medium.svg": "/static/media/Roboto-Medium.cd30d55e5fdd8206d92d.svg",
     "static/media/Roboto-Light.svg": "/static/media/Roboto-Light.97fb23680ab7429679cd.svg",
     "static/media/Roboto-Regular.svg": "/static/media/Roboto-Regular.d685350f19801519f399.svg",
@@ -18,11 +18,11 @@
     "static/media/Roboto-Regular.woff2": "/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
     "static/media/Roboto-Light.woff2": "/static/media/Roboto-Light.d537674e9e217fa53a13.woff2",
     "index.html": "/index.html",
-    "main.e37d5cde.css.map": "/static/css/main.e37d5cde.css.map",
-    "main.5a71994f.js.map": "/static/js/main.5a71994f.js.map"
+    "main.5315ea27.css.map": "/static/css/main.5315ea27.css.map",
+    "main.089759f9.js.map": "/static/js/main.089759f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e37d5cde.css",
-    "static/js/main.5a71994f.js"
+    "static/css/main.5315ea27.css",
+    "static/js/main.089759f9.js"
   ]
 }
