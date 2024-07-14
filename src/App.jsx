@@ -1,35 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Article from "./components/Article";
+import profile_photo from "./assets/images/profile_photo.png";
+import linkedin from "./assets/images/linkedin.svg";
+import telegram from "./assets/images/telegram.svg";
+import xing from "./assets/images/xing.svg";
+import whatsapp from "./assets/images/whatsapp.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Article
+        title="About me"
+        subtitle="My intro"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+"
+        img={profile_photo}
+        contacts={[
+          { key: "Phone", value: "+49 175 883 41 81" },
+          { key: "Email", value: "stacyvolvis@gmail.com" },
+          { key: "Location", value: "Bonn, Germany" },
+        ]}
+        messengers={[
+          {
+            name: "Telegram",
+            link: "https://t.me/stacyvolvis",
+            icon: telegram,
+          },
+          {
+            name: "WhatsApp",
+            link: "https://wa.me/qr/VYKDJUILP54RM1",
+            icon: whatsapp,
+          },
+          {
+            name: "LinkedIn",
+            link: "https://www.linkedin.com/in/anastasiia-volvis-58b288223/",
+            icon: linkedin,
+          },
+          {
+            name: "Xing",
+            link: "https://www.xing.com/profile/Anastasiia_Volvis/web_profiles",
+            icon: xing,
+          },
+        ]}
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

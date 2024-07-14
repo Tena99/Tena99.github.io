@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-SemiBold.eot");
+  src: url("./assets/fonts/Jost/Jost-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-SemiBold.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-SemiBold.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-SemiBold.svg#Jost-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-Thin.eot");
+  src: url("./assets/fonts/Jost/Jost-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-Thin.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-Thin.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-Thin.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-Thin.svg#Jost-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-Medium.eot");
+  src: url("./assets/fonts/Jost/Jost-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-Medium.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-Medium.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-Medium.svg#Jost-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-ExtraBold.eot");
+  src: url("./assets/fonts/Jost/Jost-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-ExtraBold.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-ExtraBold.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-ExtraBold.svg#Jost-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-Regular.eot");
+  src: url("./assets/fonts/Jost/Jost-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-Regular.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-Regular.svg#Jost-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-ExtraLight.eot");
+  src: url("./assets/fonts/Jost/Jost-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-ExtraLight.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-ExtraLight.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-ExtraLight.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-ExtraLight.svg#Jost-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-Light.eot");
+  src: url("./assets/fonts/Jost/Jost-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-Light.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-Light.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-Light.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-Light.svg#Jost-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-Black.eot");
+  src: url("./assets/fonts/Jost/Jost-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-Black.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-Black.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-Black.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-Black.svg#Jost-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost/Jost-Bold.eot");
+  src: url("./assets/fonts/Jost/Jost-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Jost/Jost-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Jost/Jost-Bold.woff") format("woff"),
+    url("./assets/fonts/Jost/Jost-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Jost/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-Medium.eot");
+  src: url("./assets/fonts/Open_Sans/OpenSans-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Open_Sans/OpenSans-Medium.woff") format("woff"),
+    url("./assets/fonts/Open_Sans/OpenSans-Medium.ttf") format("truetype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Medium.svg#OpenSans-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-Bold.eot");
+  src: url("./assets/fonts/Open_Sans/OpenSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Open_Sans/OpenSans-Bold.woff") format("woff"),
+    url("./assets/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Bold.svg#OpenSans-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-SemiBold.eot");
+  src: url("./assets/fonts/Open_Sans/OpenSans-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Open_Sans/OpenSans-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Open_Sans/OpenSans-SemiBold.woff") format("woff"),
+    url("./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"),
+    url("./assets/fonts/Open_Sans/OpenSans-SemiBold.svg#OpenSans-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-Light.eot");
+  src: url("./assets/fonts/Open_Sans/OpenSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Light.woff2") format("woff2"),
+    url("./assets/fonts/Open_Sans/OpenSans-Light.woff") format("woff"),
+    url("./assets/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Light.svg#OpenSans-Light")
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.eot");
+  src: url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.woff") format("woff"),
+    url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype"),
+    url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.svg#OpenSans-ExtraBold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-Regular.eot");
+  src: url("./assets/fonts/Open_Sans/OpenSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Open_Sans/OpenSans-Regular.woff") format("woff"),
+    url("./assets/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Open_Sans/OpenSans-Regular.svg#OpenSans-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
