@@ -18,15 +18,19 @@ export default function Article({
         </article>
 
         <article className={styles.article_item}>
-          <h2 className={styles.title}>{title}</h2>
-          <p className={styles.article_description}>{text}</p>
+          <div>
+            <h2 className={styles.title}>{title}</h2>
+            <p className={styles.article_description}>{text}</p>
+          </div>
 
           <div className={styles.contacts_container}>
             {contacts
               ? contacts.map((contact) => {
                   return (
                     <p>
-                      <strong>{contact.key}</strong>: {contact.value}
+                      <img src={contact.icon} alt="contact_icon"></img>{" "}
+                      <strong>{contact.key}</strong> <span>:</span>{" "}
+                      {contact.value}
                     </p>
                   );
                 })

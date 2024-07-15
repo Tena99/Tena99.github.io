@@ -6,6 +6,9 @@ import linkedin from "./assets/images/linkedin.svg";
 import telegram from "./assets/images/telegram.svg";
 import xing from "./assets/images/xing.svg";
 import whatsapp from "./assets/images/whatsapp.svg";
+import location from "./assets/images/location.svg";
+import phone from "./assets/images/phone.svg";
+import email from "./assets/images/email.svg";
 
 function App() {
   return (
@@ -13,15 +16,15 @@ function App() {
       <Article
         title="About me"
         subtitle="My intro"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        text="Committed to mastering multiple technologies to create world-class websites, including server-side, client-side and single-page applications.
+client-side and single-page applications. Creative and adept at client and server architecture with expertise in database management. Known for problem-solving skills, attention to detail and adaptability, backed by previous IT project management experience.
+by previous IT project management experience. Motivated by collaboration and strong communication skills as well as an analytical approach.
 "
         img={profile_photo}
         contacts={[
-          { key: "Phone", value: "+49 175 883 41 81" },
-          { key: "Email", value: "stacyvolvis@gmail.com" },
-          { key: "Location", value: "Bonn, Germany" },
+          { key: "Phone", value: "+49 175 883 41 81", icon: phone },
+          { key: "Email", value: "stacyvolvis@gmail.com", icon: email },
+          { key: "Location", value: "Bonn, Germany", icon: location },
         ]}
         messengers={[
           {
