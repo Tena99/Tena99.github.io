@@ -10,8 +10,6 @@ export default function Article({
 }) {
   return (
     <section className={styles.article_container}>
-      <h3 className={styles.subtitle}>{subtitle}</h3>
-
       <div className={styles.container}>
         <article className={styles.article_item}>
           <img src={img} alt="profile_photo"></img>
