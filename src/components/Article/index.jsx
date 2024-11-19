@@ -27,7 +27,7 @@ export default function Article({
             {contacts
               ? contacts.map((contact) => {
                   return (
-                    <p>
+                    <p key={contact.key}>
                       <img src={contact.icon} alt="contact_icon"></img>{" "}
                       <strong>{contact.key}</strong> <span>:</span>{" "}
                       {contact.value}
@@ -45,6 +45,7 @@ export default function Article({
                 ? messengers.map((messenger) => {
                     return (
                       <a
+                        key={messenger.name}
                         href={messenger.link}
                         className={styles.messenger_link}
                       >
