@@ -1,0 +1,42 @@
+.card {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.card_img_container {
+  display: block;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.card_line {
+  border: 1px solid rgb(205, 205, 205);
+}
+
+.card_link {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px 25px;
+  width: 100%;
+  box-sizing: border-box;
+
+  span {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+  }
+
+  img {
+    display: block;
+    width: 25px;
+  }
+}

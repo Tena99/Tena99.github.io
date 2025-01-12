@@ -10,8 +10,6 @@ export default function Article({
 }) {
   return (
     <section className={styles.article_container}>
-      <h3 className={styles.subtitle}>{subtitle}</h3>
-
       <div className={styles.container}>
         <article className={styles.article_item}>
           <img src={img} alt="profile_photo"></img>
@@ -27,7 +25,7 @@ export default function Article({
             {contacts
               ? contacts.map((contact) => {
                   return (
-                    <p>
+                    <p key={contact.key}>
                       <img src={contact.icon} alt="contact_icon"></img>{" "}
                       <strong>{contact.key}</strong> <span>:</span>{" "}
                       {contact.value}
@@ -45,6 +43,7 @@ export default function Article({
                 ? messengers.map((messenger) => {
                     return (
                       <a
+                        key={messenger.name}
                         href={messenger.link}
                         className={styles.messenger_link}
                       >
