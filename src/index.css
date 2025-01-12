@@ -1,2 +1,7 @@
 @import "./variables.css";
 @import "./fonts.css";
+
+#root {
+  max-width: 1300px;
+  margin: auto;
+}
