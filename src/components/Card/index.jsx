@@ -1,5 +1,4 @@
 import styles from "./styles.module.css";
-import arrowImg from "../../assets/images/arrow-right.svg";
 
 function Card({ imgSrc, title, link }) {
   return (
@@ -12,7 +11,7 @@ function Card({ imgSrc, title, link }) {
 
       <a className={styles.card_link} href={link} target="_blank">
         <span>{title}</span>
-        <img src={arrowImg} alt="" />
+        <img src="./arrow-right.svg" alt="" />
       </a>
     </article>
   );
