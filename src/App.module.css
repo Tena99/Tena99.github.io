@@ -21,7 +21,59 @@
   }
 }
 
+.skill_list {
+  margin-bottom: 20px;
+}
+
+.skill_list_container {
+  padding: 25px;
+
+  article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 40px;
+
+      li {
+        img {
+          width: 35px;
+        }
+      }
+    }
+  }
+}
+
 .skill_item {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 32px;
+
+  article {
+    max-width: 500px;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    padding: 15px;
+    margin: 0;
+    box-sizing: content-box;
+
+    ul {
+      display: block;
+
+      li {
+        padding: 10px 5px;
+
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
 }

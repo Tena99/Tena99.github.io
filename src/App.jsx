@@ -3,18 +3,6 @@ import Article from "./components/Article";
 import Card from "./components/Card";
 import List from "./components/List";
 
-import profile_photo from "./assets/images/profile_photo.png";
-import linkedin from "./assets/images/linkedin.svg";
-import telegram from "./assets/images/telegram.svg";
-import xing from "./assets/images/xing.svg";
-import whatsapp from "./assets/images/whatsapp.svg";
-import location from "./assets/images/location.svg";
-import phone from "./assets/images/phone.svg";
-import email from "./assets/images/email.svg";
-import plantopia from "./assets/images/plantopia.png";
-import peopleImg from "./assets/images/people.svg";
-import codeImg from "./assets/images/code.svg";
-
 function App() {
   return (
     <>
@@ -26,32 +14,32 @@ function App() {
 client-side and single-page applications. Creative and adept at client and server architecture with expertise in database management. Known for problem-solving skills, attention to detail and adaptability, backed by previous IT project management experience.
 by previous IT project management experience. Motivated by collaboration and strong communication skills as well as an analytical approach.
 "
-        img={profile_photo}
+        img="./profile_photo.png"
         contacts={[
-          { key: "Phone", value: "+49 175 883 41 81", icon: phone },
-          { key: "Email", value: "stacyvolvis@gmail.com", icon: email },
-          { key: "Location", value: "Bonn, Germany", icon: location },
+          { key: "Phone", value: "+49 175 883 41 81", icon: "./phone.svg" },
+          { key: "Email", value: "stacyvolvis@gmail.com", icon: "./email.svg" },
+          { key: "Location", value: "Bonn, Germany", icon: "./location.svg" },
         ]}
         messengers={[
           {
             name: "Telegram",
             link: "https://t.me/stacyvolvis",
-            icon: telegram,
+            icon: "./telegram.svg",
           },
           {
             name: "WhatsApp",
             link: "https://wa.me/qr/VYKDJUILP54RM1",
-            icon: whatsapp,
+            icon: "./whatsapp.svg",
           },
           {
             name: "LinkedIn",
             link: "https://www.linkedin.com/in/anastasiia-volvis-58b288223/",
-            icon: linkedin,
+            icon: "./linkedin.svg",
           },
           {
             name: "Xing",
             link: "https://www.xing.com/profile/Anastasiia_Volvis/web_profiles",
-            icon: xing,
+            icon: "./xing.svg",
           },
         ]}
       />
@@ -61,19 +49,19 @@ by previous IT project management experience. Motivated by collaboration and str
 
         <div className={styles.project_list_container}>
           <Card
-            imgSrc={plantopia}
+            imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
           ></Card>
 
           <Card
-            imgSrc={plantopia}
+            imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
           ></Card>
 
           <Card
-            imgSrc={plantopia}
+            imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
           ></Card>
@@ -86,39 +74,51 @@ by previous IT project management experience. Motivated by collaboration and str
         <div className={styles.skill_list_container}>
           <div className={styles.skill_item}>
             <List
-              imgSrc={peopleImg}
+              imgSrc="./people.svg"
               title={"Sozialkompetenzen"}
               list={[
-                "Zeitmanagement",
-                "Geschäftskommunikation",
-                "Multitasking",
-                "Verantwortungsbewusstsein",
-                "Selbstmotivation",
-                "Teamarbeit",
-                "Flexibilität",
+                { img: "./checkmark.svg", title: "Zeitmanagement" },
+                { img: "./checkmark.svg", title: "Geschäftskommunikation" },
+                { img: "./checkmark.svg", title: "Multitasking" },
+                { img: "./checkmark.svg", title: "Verantwortungsbewusstsein" },
+                { img: "./checkmark.svg", title: "Selbstmotivation" },
+                { img: "./checkmark.svg", title: "Teamarbeit" },
+                { img: "./checkmark.svg", title: "Flexibilität" },
               ]}
             ></List>
 
             <List
-              imgSrc={codeImg}
+              imgSrc="./code.svg"
               title={"Fachkompetenzen"}
               list={[
-                "HTML",
-                "CSS",
-                "Javascript",
-                "React.js",
-                "UI-Bibliotheken (Bootstrap, UI Material, AntD)",
-                "Express.js",
-                "SQL- & NoSQL-Datenbanken",
-                "Lokalisierung (i18next-Bibliothek)",
-                "Testing",
+                { img: "./html.svg", title: "HTML" },
+                { img: "./css.svg", title: "CSS" },
+                { img: "./js.svg", title: "Javascript" },
+                { img: "./react.svg", title: "React.js" },
+                {
+                  img: "./library.svg",
+                  title: "UI-Libraries (Bootstrap, MUI, AntD)",
+                },
+                { img: "./express.svg", title: "Express.js" },
+                { img: "./database.svg", title: "SQL- & NoSQL-Datenbanken" },
+                {
+                  img: "./localisation.svg",
+                  title: "Lokalisierung (i18next-Bibliothek)",
+                },
+                { img: "./bug.svg", title: "Testing" },
               ]}
             ></List>
           </div>
 
           <List
+            imgSrc="./languages.svg"
             title={"Languages"}
-            list={["German", "English", "Russian", "Ukrainian"]}
+            list={[
+              { img: "./de-language.svg", title: "German - B2" },
+              { img: "./en-language.svg", title: "English - C1" },
+              { img: "./uk-language.svg", title: "Ukrainian (Native)" },
+              { img: "./ru-language.svg", title: "Russian (Native)" },
+            ]}
           ></List>
         </div>
       </section>
