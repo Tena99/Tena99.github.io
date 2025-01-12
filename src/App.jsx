@@ -75,39 +75,39 @@ by previous IT project management experience. Motivated by collaboration and str
           <div className={styles.skill_item}>
             <List
               imgSrc="./people.svg"
-              title={"Sozialkompetenzen"}
+              title={"Social Skills"}
               list={[
-                { img: "./checkmark.svg", title: "Zeitmanagement" },
-                { img: "./checkmark.svg", title: "Geschäftskommunikation" },
+                { img: "./checkmark.svg", title: "Time Management" },
+                { img: "./checkmark.svg", title: "Business Communication" },
                 { img: "./checkmark.svg", title: "Multitasking" },
-                { img: "./checkmark.svg", title: "Verantwortungsbewusstsein" },
-                { img: "./checkmark.svg", title: "Selbstmotivation" },
-                { img: "./checkmark.svg", title: "Teamarbeit" },
-                { img: "./checkmark.svg", title: "Flexibilität" },
+                { img: "./checkmark.svg", title: "Sense of Responsibility" },
+                { img: "./checkmark.svg", title: "Self-Motivation" },
+                { img: "./checkmark.svg", title: "Teamwork" },
+                { img: "./checkmark.svg", title: "Flexibility" },
               ]}
-            ></List>
+            />
 
             <List
               imgSrc="./code.svg"
-              title={"Fachkompetenzen"}
+              title={"Technical Skills"}
               list={[
                 { img: "./html.svg", title: "HTML" },
                 { img: "./css.svg", title: "CSS" },
-                { img: "./js.svg", title: "Javascript" },
+                { img: "./js.svg", title: "JavaScript" },
                 { img: "./react.svg", title: "React.js" },
                 {
                   img: "./library.svg",
-                  title: "UI-Libraries (Bootstrap, MUI, AntD)",
+                  title: "UI Libraries (Bootstrap, MUI, AntD)",
                 },
                 { img: "./express.svg", title: "Express.js" },
-                { img: "./database.svg", title: "SQL- & NoSQL-Datenbanken" },
+                { img: "./database.svg", title: "SQL & NoSQL Databases" },
                 {
                   img: "./localisation.svg",
-                  title: "Lokalisierung (i18next-Bibliothek)",
+                  title: "Localization (i18next Library)",
                 },
                 { img: "./bug.svg", title: "Testing" },
               ]}
-            ></List>
+            />
           </div>
 
           <List
