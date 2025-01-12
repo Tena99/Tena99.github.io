@@ -1,6 +1,7 @@
 import styles from "./App.module.css";
 import Article from "./components/Article";
 import Card from "./components/Card";
+import List from "./components/List";
 
 import profile_photo from "./assets/images/profile_photo.png";
 import linkedin from "./assets/images/linkedin.svg";
@@ -11,6 +12,8 @@ import location from "./assets/images/location.svg";
 import phone from "./assets/images/phone.svg";
 import email from "./assets/images/email.svg";
 import plantopia from "./assets/images/plantopia.png";
+import peopleImg from "./assets/images/people.svg";
+import codeImg from "./assets/images/code.svg";
 
 function App() {
   return (
@@ -74,6 +77,49 @@ by previous IT project management experience. Motivated by collaboration and str
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
           ></Card>
+        </div>
+      </section>
+
+      <section className={styles.skill_list}>
+        <h3 className={styles.subtitle}>What I Bring</h3>
+
+        <div className={styles.skill_list_container}>
+          <div className={styles.skill_item}>
+            <List
+              imgSrc={peopleImg}
+              title={"Sozialkompetenzen"}
+              list={[
+                "Zeitmanagement",
+                "Geschäftskommunikation",
+                "Multitasking",
+                "Verantwortungsbewusstsein",
+                "Selbstmotivation",
+                "Teamarbeit",
+                "Flexibilität",
+              ]}
+            ></List>
+
+            <List
+              imgSrc={codeImg}
+              title={"Fachkompetenzen"}
+              list={[
+                "HTML",
+                "CSS",
+                "Javascript",
+                "React.js",
+                "UI-Bibliotheken (Bootstrap, UI Material, AntD)",
+                "Express.js",
+                "SQL- & NoSQL-Datenbanken",
+                "Lokalisierung (i18next-Bibliothek)",
+                "Testing",
+              ]}
+            ></List>
+          </div>
+
+          <List
+            title={"Languages"}
+            list={["German", "English", "Russian", "Ukrainian"]}
+          ></List>
         </div>
       </section>
     </>
