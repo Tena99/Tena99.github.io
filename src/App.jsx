@@ -52,24 +52,33 @@ by previous IT project management experience. Motivated by collaboration and str
             imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
+            description={
+              "A modern Plant Store application built with Express and React that offers a seamless user experience for browsing, searching, and purchasing plants."
+            }
           ></Card>
 
           <Card
             imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
+            description={
+              "A modern Plant Store application built with Express and React that offers a seamless user experience for browsing, searching, and purchasing plants."
+            }
           ></Card>
 
           <Card
             imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
+            description={
+              "A modern Plant Store application built with Express and React that offers a seamless user experience for browsing, searching, and purchasing plants."
+            }
           ></Card>
         </div>
       </section>
 
       <section className={styles.skill_list}>
-        <h3 className={styles.subtitle}>What I Bring</h3>
+        {/* <h3 className={styles.subtitle}>What I Bring</h3>
 
         <div className={styles.skill_list_container}>
           <div className={styles.skill_item}>
@@ -120,7 +129,7 @@ by previous IT project management experience. Motivated by collaboration and str
               { img: "./ru-language.svg", title: "Russian (Native)" },
             ]}
           ></List>
-        </div>
+        </div> */}
       </section>
     </>
   );

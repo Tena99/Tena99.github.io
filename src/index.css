@@ -1,6 +1,29 @@
 @import "./variables.css";
 @import "./fonts.css";
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("background.jpg") no-repeat center center;
+
+  background-position: center;
+  background-size: cover;
+
+  margin: 0;
+}
+
+/* section {
+  background: rgb(196 196 196 / 50%);
+  padding: 15px;
+  margin: 25px !important;
+} */
+
 #root {
   max-width: 1300px;
   margin: auto;

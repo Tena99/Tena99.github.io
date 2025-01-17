@@ -77,3 +77,27 @@
     }
   }
 }
+
+.bring_section {
+  display: flex;
+  border: 1px solid lightgrey;
+  padding: 15px;
+
+  .first_list {
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+  }
+
+  .technical_list {
+    box-sizing: border-box;
+    width: 100%;
+    li {
+      background-color: lightgray;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  }
+}
