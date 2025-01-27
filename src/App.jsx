@@ -131,9 +131,9 @@ by previous IT project management experience. Motivated by collaboration and str
             ]}
           ></List>*/}
 
-          {/* <Skills_Card imgSrc={"./laptop.png"} />
           <Skills_Card imgSrc={"./laptop.png"} />
-          <Skills_Card imgSrc={"./laptop.png"} /> */}
+          <Skills_Card imgSrc={"./laptop.png"} />
+          <Skills_Card imgSrc={"./laptop.png"} />
         </div>
       </section>
     </>
