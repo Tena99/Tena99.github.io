@@ -1,7 +1,8 @@
 import styles from "./App.module.css";
 import Article from "./components/Article";
-import Card from "./components/Card";
+import Project_Card from "./components/Project_Card";
 import List from "./components/List";
+import Skills_Card from "./components/Skills_Card";
 
 function App() {
   return (
@@ -48,41 +49,41 @@ by previous IT project management experience. Motivated by collaboration and str
         <h3 className={styles.subtitle}>Recent Projects</h3>
 
         <div className={styles.project_list_container}>
-          <Card
+          <Project_Card
             imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
             description={
               "A modern Plant Store application built with Express and React that offers a seamless user experience for browsing, searching, and purchasing plants."
             }
-          ></Card>
+          ></Project_Card>
 
-          <Card
+          <Project_Card
             imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
             description={
               "A modern Plant Store application built with Express and React that offers a seamless user experience for browsing, searching, and purchasing plants."
             }
-          ></Card>
+          ></Project_Card>
 
-          <Card
+          <Project_Card
             imgSrc="./plantopia.png"
             title={"Plantopia"}
             link={"https://plants-store-front.onrender.com/"}
             description={
               "A modern Plant Store application built with Express and React that offers a seamless user experience for browsing, searching, and purchasing plants."
             }
-          ></Card>
+          ></Project_Card>
         </div>
       </section>
 
       <section className={styles.skill_list}>
-        {/* <h3 className={styles.subtitle}>What I Bring</h3>
+        <h3 className={styles.subtitle}>What I Bring</h3>
 
         <div className={styles.skill_list_container}>
-          <div className={styles.skill_item}>
-            <List
+          {/*  <div className={styles.skill_item}>
+           <List
               imgSrc="./people.svg"
               title={"Social Skills"}
               list={[
@@ -128,8 +129,12 @@ by previous IT project management experience. Motivated by collaboration and str
               { img: "./uk-language.svg", title: "Ukrainian (Native)" },
               { img: "./ru-language.svg", title: "Russian (Native)" },
             ]}
-          ></List>
-        </div> */}
+          ></List>*/}
+
+          {/* <Skills_Card imgSrc={"./laptop.png"} />
+          <Skills_Card imgSrc={"./laptop.png"} />
+          <Skills_Card imgSrc={"./laptop.png"} /> */}
+        </div>
       </section>
     </>
   );
