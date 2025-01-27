@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-function Card({ imgSrc, title, link, description }) {
+function Project_Card({ imgSrc, title, link, description }) {
   return (
     <article className={styles.card}>
       <div className={styles.card_img_container}>
@@ -16,4 +16,4 @@ function Card({ imgSrc, title, link, description }) {
   );
 }
 
-export default Card;
+export default Project_Card;
